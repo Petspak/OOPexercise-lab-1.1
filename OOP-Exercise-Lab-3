@@ -77,12 +77,12 @@ class BasketballTeam { 
           BasketballTeam before, after;  
     
           coach1 = new Coach();  
-          coach1.setName("Steve Kerr");  
-          coach1.setTeam("Golden State Warriors");  
+          coach1.setName("jayson tatum");  
+          coach1.setTeam("Boston");  
                     
                   coach2 = new Coach();  
-          coach2.setName("Mark Jackson");  
-          coach2.setTeam("Golden State Warriors");  
+          coach2.setName("Joe Mazzulla ");  
+          coach2.setTeam("Boston");  
     
           before = new BasketballTeam();  
           before.setHandler((coach1));  
@@ -94,11 +94,11 @@ class BasketballTeam { 
                     
                   System.out.println(before.toString());  
                   System.out.println(" Year: 2015-2023:");  
-                  System.out.println(" Star Players: Curry, Thompson, Green" + "\n");  
+                  System.out.println(" Star Players:Jaylen Brown, Jayson Tatum " + "\n");  
                     
           System.out.println(after.toString());  
-          System.out.println(" Year: 2012-2014:");  
-                  System.out.println(" Stars: Lee, Curry" + "\n");  
+          System.out.println(" Year: 2012-2015:");  
+                  System.out.println(" Stars: Jaylen Brown,Jayson Tatum" + "\n");  
                     
       }  
   }
