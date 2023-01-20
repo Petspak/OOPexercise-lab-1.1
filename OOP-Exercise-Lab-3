@@ -86,11 +86,11 @@ class BasketballTeam { 
     
           before = new BasketballTeam();  
           before.setHandler((coach1));  
-          before.activeplayer((434));  
+          before.activeplayer((500));  
     
           after = new BasketballTeam();  
           after.setHandler((coach2));  
-                  after.activeplayer((121));  
+                  after.activeplayer((150));  
                     
                   System.out.println(before.toString());  
                   System.out.println(" Year: 2015-2023:");  
